@@ -12,7 +12,7 @@ public class ServerBlobTest : MonoBehaviour
     void Start()
     {
         var server = GetComponent<uOscServer>();
-        server.onDataReceived.AddListener(OnDataReceived);
+        //server.onDataReceived.AddListener(OnDataReceived);
 
         texture_ = new Texture2D(256, 256, TextureFormat.ARGB32, true);
 

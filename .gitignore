@@ -24,3 +24,6 @@ sysinfo.txt
 # Others
 .DS_Store
 .vscode
+
+Ignore/
+.vs/

@@ -9,7 +9,7 @@ public class ServerTest : MonoBehaviour
     void Start()
     {
         var server = GetComponent<uOscServer>();
-        server.onDataReceived.AddListener(OnDataReceived);
+        //server.onDataReceived.AddListener(OnDataReceived);
     }
 
     void OnDataReceived(Message message)

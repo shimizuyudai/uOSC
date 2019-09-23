@@ -1,0 +1,15 @@
+{
+  "clients": [
+    {
+      "Id": "Client",
+      "Address": "127.0.0.1",
+      "Port": 12000
+    }
+  ],
+  "servers": [
+    {
+      "Id": "Server",
+      "Port": 12000
+    }
+  ]
+}
